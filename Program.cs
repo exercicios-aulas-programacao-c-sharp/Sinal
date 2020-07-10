@@ -6,7 +6,28 @@ namespace Sinal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Variáveis
+            //Entrada do usuário
+            //Estrutura condicional requerida
+
+            int numero;
+
+            Console.Write("Digite um número: ");
+            numero = Convert.ToInt32(Console.ReadLine());
+
+            if (numero > 0)
+            {
+                Console.WriteLine("Positivo");
+            }
+            else if (numero < 0)
+            {
+                Console.WriteLine("Negativo");
+            }
+            else
+            {
+                Console.WriteLine("Zero");
+            }
+
         }
     }
 }
